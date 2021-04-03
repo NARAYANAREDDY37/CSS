@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        body{
+            font-family: Arial,sans-serif;
+            margin-bottom: 500px;
+        }
+        div{
+            background-color: lightsalmon;
+            width: 600px;
+            padding: 10px;
+            text-align: center;
+        }
+        #borders{
+            border: 5px dashed orangered;
+        }
+        #border-single{
+            border-top:10px solid red;
+        }
+        #border-rounded{
+            border: 5px solid darkviolet;
+            border-radius: 50px;
+        }
+        #border-rounded-twosides{
+            border: 15px solid hotpink;
+            border-radius: 0 40px 0 40px;
+        }
+        #circle{
+            height: 300px;
+            width: 300px;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 50%;
+            background-color: lightseagreen;
+        }
+        #circle-border{
+            height: 300px;
+            width: 300px;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 50%;
+            background-color: lightseagreen;
+            border: 10px solid darkred;
+        }
+        #border-frame{
+            height: 300px;
+            width: 300px;
+            box-shadow: 2px 2px 5px black;
+            border-top: 15px solid red;
+            border-bottom: 15px solid red;
+            border-left: 15px solid green;
+            border-right: 15px solid green;
+        }
+        #border-ring{
+            height: 300px;
+            width: 300px;
+            box-shadow: 2px 2px 5px black;
+            border-radius: 50%;
+            background-color: darkblue;
+            border-top: 25px solid darkorange;
+            border-bottom: 25px solid darkorange;
+            border-left: 30px solid darkgray;
+            border-right: 30px solid darkgray;
+        }
+        #frame-video{
+            height: 300px;
+            width: 600px;
+            box-shadow: 2px 2px 5px black;
+            border-top: 25px solid darkorange;
+            border-bottom: 25px solid darkorange;
+            border-left: 30px solid darkgray;
+            border-right: 30px solid darkgray;
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+      border widths ,styles , colors , sides , rounded , custom
+     -->
+    <h1>All Borders</h1>
+    <div id="borders">
+        <h2>Let us make some borders</h2>
+    </div>
+
+    <h1>Signle Borders</h1>
+    <div id="border-single">
+        <h2>Let us make some borders</h2>
+    </div>
+
+    <h1>Rounded Borders</h1>
+    <div id="border-rounded">
+        <h2>Let us make some borders</h2>
+    </div>
+
+    <h1>Rounded Borders two sides</h1>
+    <div id="border-rounded-twosides">
+        <h2>Let us make some borders</h2>
+    </div>
+
+    <h1>Circle</h1>
+    <section id="circle">
+
+    </section>
+
+    <h1>Circle with border</h1>
+    <section id="circle-border">
+
+    </section>
+
+    <h1>Border Frame</h1>
+    <section id="border-frame">
+
+    </section>
+
+    <h1>Border Ring</h1>
+    <section id="border-ring">
+
+    </section>
+
+    <h1>Frame video</h1>
+    <section id="frame-video"">
+    <iframe width="600" height="300" src="https://www.youtube-nocookie.com/embed/xSXf9h4fIKo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body{
+    background-color: rosybrown;
+}
+.main-container{
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 5px black;
+    margin: 100px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+
+}
+.main-container img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+
+}
+.main-container:hover img{
+    transform: translateY(-30%);
+}
+.sub-content{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+    color: white;
+    transform: translateY(100%);
+    transition: all 0.5s;
+}
+.main-container:hover .sub-content{
+    transform: translateY(-0%);
+}

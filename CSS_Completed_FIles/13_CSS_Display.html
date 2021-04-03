@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS DISPLAY</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin-bottom: 500px;
+        }
+        div{
+            margin: 10px;
+        }
+        h3{
+            margin: 25px;
+            padding: 15px;
+            background-color: lightseagreen;
+            display: inline;
+            color: white;
+        }
+        span{
+            background-color: lightcoral;
+            font-size: 25px;
+            display: block;
+            margin: 25px;
+            padding: 15px;
+        }
+        a{
+            background-color: lightgreen;
+            margin: 25px;
+            padding: 15px;
+            display: block;
+        }
+        h1{
+            background-color: peru;
+            margin: 25px;
+            padding: 15px;
+            display: none;
+
+        }
+        .parent{
+            background-color: lightgray;
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+
+
+        }
+        .child{
+            background-color: lightgreen;
+            display: inline-block;
+            width: 250px;
+            height: 350px;
+            margin: 10px;
+            padding: 10px;
+        }
+        input{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- DISPLAY INLINE -->
+    <div>
+        <h3>HTML</h3>
+        <h3>CSS</h3>
+        <h3>JavaScript</h3>
+        <h3>JQuery</h3>
+        <h3>Bootstrap</h3>
+    </div>
+
+    <!-- Display Block -->
+    <div>
+        <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</b>
+            <span >1. At aut beatae cum cumque dolore exercitationem facere in ipsum itaque, </span>
+            <span >2. iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!</span>
+            <span >3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            At aut beatae cum cumque dolore exercitationem facere in ipsum itaque,
+            iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!
+        </p>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div class="div_block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Careers</a>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div>
+        <form>
+            <input type="text" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- DISPLAY NONE / HIDDEN -->
+    <div>
+        <h1>I am Hidden</h1>
+    </div>
+
+    <!-- DISPLAY INLINE-BLOCK -->
+    <div class="parent">
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet beatae consectetur consequatur officiis quam quidem.
+                Amet architecto harum inventore iure natus. Adipisci aliquam aut,
+                commodi dicta dolores doloribus enim eos error, est expedita fugiat ipsa modi molestias, obcaecati odio pariatur perspiciatis porro quidem ratione sapiente suscipit temporibus tenetur vero voluptates.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet beatae consectetur consequatur officiis quam quidem.
+                Amet architecto harum inventore iure natus. Adipisci aliquam aut,
+                commodi dicta dolores doloribus enim eos error, est expedita fugiat ipsa modi molestias, obcaecati odio pariatur perspiciatis porro quidem ratione sapiente suscipit temporibus tenetur vero voluptates.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet beatae consectetur consequatur officiis quam quidem.
+                Amet architecto harum inventore iure natus. Adipisci aliquam aut,
+                commodi dicta dolores doloribus enim eos error, est expedita fugiat ipsa modi molestias, obcaecati odio pariatur perspiciatis porro quidem ratione sapiente suscipit temporibus tenetur vero voluptates.</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Amet beatae consectetur consequatur officiis quam quidem.
+                Amet architecto harum inventore iure natus. Adipisci aliquam aut,
+                commodi dicta dolores doloribus enim eos error, est expedita fugiat ipsa modi molestias, obcaecati odio pariatur perspiciatis porro quidem ratione sapiente suscipit temporibus tenetur vero voluptates.</p>
+        </div>
+    </div>
+
+</body>
+</html>

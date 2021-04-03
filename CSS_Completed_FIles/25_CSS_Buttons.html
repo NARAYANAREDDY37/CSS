@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Buttons</title>
+    <style>
+        body{
+            font-family: "Book Antiqua";
+        }
+        .btn{
+            background-color: teal;
+            color: white;
+            padding: 12px 25px;
+            width: 100px;
+            text-decoration: none;
+            border: none;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            outline: none;
+            box-shadow: 0 0 5px black;
+            margin: 5px;
+        }
+        .btn:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+        .btn-out{
+            background-color: white;
+            color: teal;
+            padding: 12px 25px;
+            width: 100px;
+            text-decoration: none;
+            border: 1px solid teal;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            outline: none;
+            box-shadow: 0 0 5px black;
+            margin: 5px;
+        }
+        .bs-btn{
+            color: white;
+            padding: 12px 25px;
+            width: 150px;
+            text-decoration: none;
+            border: none;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            outline: none;
+            margin: 5px;
+            border-radius: 50px;
+            box-shadow: 0 0 5px gray;
+        }
+        .bs-btn:hover{
+            cursor: pointer;
+            box-shadow: 0 0 5px black;
+        }
+        .primary{
+            background-color: blue;
+        }
+        .secondary{
+            background-color: darkviolet;
+        }
+        .success{
+            background-color: green;
+        }
+        .warning{
+            background-color: orange;
+        }
+        .danger{
+            background-color: red;
+        }
+        .bs-out-btn{
+            background-color: white;
+            padding: 12px 25px;
+            width: 150px;
+            text-decoration: none;
+            border: 1px solid teal;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            outline: none;
+            box-shadow: 0 0 5px black;
+            margin: 5px;
+            border-radius: 50px;
+        }
+        .bs-out-btn:hover{
+            cursor: pointer;
+        }
+        .primary-out{
+           color: blue;
+        }
+        .secondary-out{
+            color: darkviolet;
+        }
+        .success-out{
+            color: green;
+        }
+        .warning-out{
+          color: orange;
+        }
+        .danger-out{
+            color: red;
+        }
+        .primary-out:hover {
+            background-color: blue;
+            color: white;
+        }.secondary-out:hover {
+             background-color: darkviolet;
+             color: white;
+         }
+        .success-out:hover {
+            background-color: green;
+            color: white;
+        }
+        .warning-out:hover {
+            background-color: orange;
+            color: white;
+        }
+        .danger-out:hover {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<!------------------Simple Buttons--------------->
+
+    <h1>Sample Buttons</h1>
+    <div>
+        <a href="#" class="btn">Link</a>
+        <button class="btn">Button</button>
+        <input class="btn" type="submit" value="submit">
+    </div>
+
+<!------------------Simple Outline Buttons--------------->
+    <h1>Sample Outline Buttons</h1>
+    <div>
+        <a href="#" class="btn-out">Link</a>
+        <button class="btn-out">Button</button>
+        <input class="btn-out" type="submit" value="submit">
+    </div>
+
+<!------------------Simple Outline Buttons--------------->
+    <h1>Bootstrap Buttons</h1>
+    <div>
+        <button class="bs-btn primary">Primary</button>
+        <button class="bs-btn secondary">Secondary</button>
+        <button class="bs-btn success">Success</button>
+        <button class="bs-btn warning">Warning</button>
+        <button class="bs-btn danger">Danger</button>
+    </div>
+
+<!------------------Bootstrap Outline Buttons--------------->
+    <h1>Bootstrap Outline Buttons</h1>
+    <div>
+        <button class="bs-out-btn primary-out">Primary</button>
+        <button class="bs-out-btn secondary-out">Secondary</button>
+        <button class="bs-out-btn success-out">Success</button>
+        <button class="bs-out-btn warning-out">Warning</button>
+        <button class="bs-out-btn danger-out">Danger</button>
+    </div>
+</body>
+</html>

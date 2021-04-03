@@ -1,0 +1,39 @@
+body{
+    background-color: gold;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+}
+.container img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.8s;
+    transform: translateX(50%);
+}
+.container:hover img{
+    transform: translateX(0%);
+}
+.content{
+    background:linear-gradient(45deg, gold,black,gold);
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all 0.8s;
+    transform: translateX(0%);
+    font-family: "Comic Sans MS",sans-serif;
+    font-size: 15px;
+}
+
+.container:hover .content{
+    transform: translateX(-100%);
+}

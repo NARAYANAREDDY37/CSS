@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS New Login Form</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <style>
+        body{
+            background: white url("img/image3.jpeg") no-repeat scroll top left;
+            background-size: cover;
+        }
+        .form-div{
+            border: 2px solid black;
+            width: 250px;
+            text-align: center;
+            margin: 200px auto;
+            background-color: rgba(0,0,0,0.5);
+            border-radius: 10px;
+            box-shadow: 0 0  15px #00aeef;
+        }
+        .form-div h2{
+            color: white;
+            margin-top: 5px;
+        }
+        .form-div img{
+            width: 100px;
+            margin-top: -50px;
+        }
+        input[type="text"], input[type="password"]{
+            padding: 8px;
+            margin: 5px;
+            border: none;
+            outline: none;
+            border-bottom: 3px solid lightskyblue;
+            text-align: center;
+            height: 25px;
+            background: transparent;
+            color: white;
+            width: 150px;
+        }
+        input[type="text"]:hover, input[type="password"]:hover{
+           border-bottom: 3px solid teal;
+        }
+        ::placeholder{
+            color: lightgray;
+        }
+        input[type="submit"]{
+            background-color: teal;
+            color: white;
+            border: none;
+            outline: none;
+            height: 30px;
+            margin: 10px;
+            font-size: 18px;
+            padding: 8px 35px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 50px;
+        }
+        input[type="submit"]:hover{
+            cursor: pointer;
+            box-shadow: 0 0 15px #00aeef;
+            background-color: #00aeef;
+        }
+    </style>
+</head>
+<body>
+
+    <!-------------- Login Form ----------->
+
+    <div class="form-div animated flip">
+        <img src="img/user.png" alt="">
+        <h2>Login Here</h2>
+        <form>
+            <input type="text" placeholder="User Name">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <input type="submit" value="Login" name="Login">
+        </form>
+    </div>
+</body>
+</html>

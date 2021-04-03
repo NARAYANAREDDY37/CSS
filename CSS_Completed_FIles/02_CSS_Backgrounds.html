@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+            margin-bottom: 500px;
+        }
+        #bag-colour{
+            background-color: lightgreen;
+        }
+        #bag-image{
+            background-image: url("img/image1.jpg");
+            color: white;
+            padding: 10px;
+            box-shadow: 0 0 5px black;
+            width: 500px;
+        }
+        #bag-attachment{
+            width: 100%;
+            height: 400px;
+            box-shadow: 0 0 5px black;
+            background: lightcyan url("img/image4.jpeg") no-repeat fixed top center;
+        }
+        #bag-repeat{
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 0 5px black;
+            background: lightslategray url("img/nature.jpg") repeat-x scroll top;
+        }
+        #bag-size{
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 0 5px black;
+            background-image: url("img/nature.jpg");
+            background-size: cover;
+        }
+        #bag-grad{
+            width: 500px;
+            height: 400px;
+            box-shadow: 0 0 5px black;
+            background: linear-gradient(45deg, red, black, red);
+        }
+    </style>
+</head>
+<body>
+
+    <!--
+        Background Color
+        Image
+        Attachment
+        Repeat
+        Position
+        Linear-Gradient
+    -->
+    <h1>Background colour</h1>
+    <div id="bag-colour">
+        <h2>Iam going to apply background colour</h2>
+    </div>
+
+    <h1>Background Image</h1>
+    <div id="bag-image">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto consequatur distinctio eveniet ex, impedit incidunt, libero nostrum nulla obcaecati quas, repellat sit temporibus! A commodi consequatur corporis ipsa ipsum iure modi molestiae nostrum obcaecati quas, recusandae sequi sint soluta ut.</p>
+    </div>
+
+
+    <h1>Background attachment</h1>
+    <div id="bag-attachment">
+
+    </div>
+
+    <h1>Background Repeat</h1>
+    <div id="bag-repeat">
+    </div>
+
+    <h1>Background Size</h1>
+    <div id="bag-size">
+
+    </div>
+
+    <h1>Gradient</h1>
+    <div id="bag-grad">
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Image Gallery</title>
+    <style>
+        body{
+            font-family: "Book Antiqua";
+        }
+        h1{
+            text-align: center;
+        }
+        .image-div{
+            border: 2px solid black;
+            width: 290px;
+            border-radius: 15px;
+            float: left;
+            margin: 5px;
+        }
+        .image-div:hover{
+            box-shadow: 0 0 5px black;
+        }
+        .zoom{
+            width: 280px;
+            height: 200px;
+            overflow: hidden;
+            box-shadow: 0 0 5px black;
+            border-radius: 14px;
+            margin: 5px;
+
+        }
+        .zoom img{
+            width: 100%;
+            height: 100%;
+            transition: all 0.5s;
+            box-shadow: 0 0 5px black;
+            border-radius: 14px;
+        }
+        .zoom:hover img{
+            transform:scale(1.2,1.2);
+            cursor: pointer;
+        }
+        .desc{
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Work Space</h1>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office1.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 1</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office2.jpeg" alt="">
+        </div>
+        <div class="desc">Workspace 2</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office3.jpg" alt="">
+        </div>
+        <div class="desc">Workspace 3</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office4.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 4</div>
+    </div>
+
+<!--second row-->
+
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office1.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 1</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office2.jpeg" alt="">
+        </div>
+        <div class="desc">Workspace 2</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office3.jpg" alt="">
+        </div>
+        <div class="desc">Workspace 3</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office4.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 4</div>
+    </div>
+
+<!--Third Row-->
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office1.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 1</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office2.jpeg" alt="">
+        </div>
+        <div class="desc">Workspace 2</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office3.jpg" alt="">
+        </div>
+        <div class="desc">Workspace 3</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office4.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 4</div>
+    </div>
+
+<!--Fourth row-->
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office1.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 1</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office2.jpeg" alt="">
+        </div>
+        <div class="desc">Workspace 2</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office3.jpg" alt="">
+        </div>
+        <div class="desc">Workspace 3</div>
+    </div>
+    <div class="image-div">
+        <div class="zoom">
+            <img src="img/office4.jfif" alt="">
+        </div>
+        <div class="desc">Workspace 4</div>
+    </div>
+
+</body>
+</html>

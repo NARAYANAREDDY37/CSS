@@ -1,0 +1,37 @@
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+    margin: 200px 20px;
+    display: inline-block;
+    background-color: white;
+    border-top: 25px solid cornflowerblue;
+    border-right: 35px solid greenyellow;
+    border-bottom: 25px solid hotpink;
+    border-left: 35px solid brown;
+}
+
+.circle-1{
+    animation: rotate-clock 2s infinite linear;
+}
+.circle-2{
+    animation: rotate-reverse 2s infinite linear;
+}
+
+@keyframes rotate-clock{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotate-reverse{
+     0%{
+         transform: rotate(360deg);
+     }
+     100%{
+         transform: rotate(0deg);
+     }
+ }

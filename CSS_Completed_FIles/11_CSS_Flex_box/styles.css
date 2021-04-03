@@ -1,0 +1,22 @@
+body{
+    background-color: gray;
+    font-family: "Comic Sans MS", sans-serif;
+
+}
+.container{
+    background-color: lightseagreen;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container h1{
+    background: linear-gradient(45deg, yellow,black,yellow);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+}

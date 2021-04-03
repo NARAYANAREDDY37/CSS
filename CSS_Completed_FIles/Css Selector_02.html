@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS selector 2 (mixed)</title>
+    <style>
+        ul{
+            background: lightseagreen;
+            width: 30%;
+        }
+        ol{
+            background: lightslategray;
+            width: 30%;
+        }
+        ul li{
+            color: white;
+            font-family: "Comic Sans MS",sans-serif;
+            margin: 5px;
+        }
+        ol li {
+            color: white;
+            font-family: "Comic Sans MS",sans-serif;
+            margin: 5px;
+        }
+        ul li:first-child{
+            background-color: blueviolet;
+        }
+        ul li:nth-child(2){
+            background-color: green;
+        }
+        ul li:nth-child(3){
+            background-color: red;
+        }
+        ul li:last-child{
+            background-color: saddlebrown;
+        }
+
+
+        ol li:first-child{
+            background-color: red;
+        }
+        ol li:nth-child(2){
+            background-color: violet;
+        }
+        ol li:nth-child(3){
+            background-color: deeppink;
+        }
+        ol li:last-child{
+            background-color: seagreen;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+    </ul>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Bootstrap</li>
+    </ol>
+</body>
+</html>
