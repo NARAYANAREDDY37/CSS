@@ -4,6 +4,42 @@
     <meta charset="UTF-8">
     <title>CSS selector 2 (mixed)</title>
     <style>
+        *{
+            margin:0px;
+        }
+
+        h1{
+            background-color:lightgray;
+            padding:15px;
+        }
+
+        div{
+            margin-top: 15px;
+        }
+        /* attribute selectors */
+        input[type="text"]{
+            background-color:blueviolet;
+            transition: all 0.5s;
+        }
+        input[type="password"]{
+            background-color:lightcoral;
+        }
+        input[type="submit"]{
+            background-color:seagreen;
+            transition: all 0.5s;
+        }
+        /* Pseudo selectors */
+        input[type="text"]:focus{
+            background-color:orangered;
+            color:white;
+            font-size: 18px;
+        }
+        input[type="submit"]:hover{
+            background-color: hotpink;
+            padding:15px 20px;
+        }
+
+        /* Mixed Selectors */
         ul{
             background: lightseagreen;
             width: 30%;
@@ -51,6 +87,22 @@
     </style>
 </head>
 <body>
+
+    <h1>CSS Selectors 2</h1>
+    
+    <!-- creating form -->
+    <div>
+        <form action="">
+            <label for="">Username</label>
+            <input type="text">
+            <br>
+            <label for="">Password</label>
+            <input type="password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+
 
     <ul>
         <li>HTML</li>
