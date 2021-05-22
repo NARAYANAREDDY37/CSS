@@ -1,0 +1,60 @@
+:root {
+  --background: black;
+  --text-color:white;
+  --padding: 10px;
+  --margin: 10px;
+}
+
+/* we can directly define variables here itself */
+body {
+  background-color: var(--background-color, pink);
+}
+
+.child {
+  background-color: var(--background);
+  color: var(--text-color);
+}
+
+.one {
+  background-color:seagreen;
+  margin: 20px;
+  padding: 10px;
+}
+.one-one {
+  background-color:red;
+  margin: var(--margin);
+  padding: var(--padding);
+}
+
+.one-two {
+  background-color:blue;
+  margin: var(--margin);
+  padding: var(--padding);
+}
+
+.one-three {
+  background-color:skyblue;
+  margin: var(--margin);
+  padding: var(--padding);
+}
+
+.two {
+  background: gray;
+  margin: 20px;
+  padding: 10px;
+}
+
+.two-one {
+  background-color:teal;
+  margin: var(--margin);
+  padding: var(--padding);
+}
+
+.two-two {
+  background-color:orange;
+  margin: var(--margin);
+  padding: var(--padding);
+}
+.buttons {
+  text-align: center;
+}
