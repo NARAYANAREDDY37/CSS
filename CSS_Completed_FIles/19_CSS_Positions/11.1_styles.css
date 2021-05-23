@@ -1,0 +1,40 @@
+body {
+  margin: 20px;
+}
+
+.parent {
+  background-color: teal;
+  padding: 30px;
+  position: relative;
+  height: 200vh;
+  
+}
+
+.child {
+  padding:10px;
+  margin: 10px;
+  color: #fff
+}
+.child-one {
+  background-color: black;
+  position: relative;
+  left: 50px;
+  
+}
+.child-two {
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  
+}
+.child-three {
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.child-four {
+  background-color: orangered;
+  position: sticky;
+  top: 10px;
+}
