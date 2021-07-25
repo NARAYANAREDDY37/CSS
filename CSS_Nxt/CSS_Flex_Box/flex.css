@@ -1,4 +1,29 @@
-.container {
-	/* display: flex; */
+/* 
 	display: inline-flex;
+	inline-flex: takes only required width
+
+	Flex direction: --> should be specified in parent only.
+	row (default), row-reverse, column, column-reverse
+
+	flex-wrap: --> nowrap, wrap, wrap-reverse
+
+	Justify content:  --> horizontal alignment
+	(flex-start, flex-end, center) for evenly distribution (space between, space-around, space-evenly)
+
+	align-items:  --> vertical alignment
+	strech (default), flex-start, flext-end, center, baseline
+
+	for remaining see (oneNote)
+
+
+
+*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.box {
+	flex: 0 0 calc(25% - 1rem);
 }

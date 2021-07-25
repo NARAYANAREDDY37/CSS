@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background: #f3f3f3;
@@ -16,6 +20,7 @@ body {
 
 .box-1 {
 	background: #581f18;
+	/* font-size: 60px; */
 }
 
 .box-2 {
