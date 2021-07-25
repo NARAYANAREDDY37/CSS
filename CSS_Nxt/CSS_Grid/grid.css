@@ -1,0 +1,32 @@
+.container {
+	margin: 1rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 100px 100px 100px 100px 100px;
+	grid-template-areas:
+		'a a b'
+		'a a b'
+		'c c b'
+		'd d d'
+		'e f f';
+}
+
+.cell-1 {
+	grid-area: a;
+}
+
+.cell-2 {
+	grid-area: b;
+}
+.cell-3 {
+	grid-area: c;
+}
+.cell-4 {
+	grid-area: d;
+}
+.cell-5 {
+	grid-area: e;
+}
+.cell-6 {
+	grid-area: f;
+}
